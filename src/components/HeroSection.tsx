@@ -76,7 +76,7 @@ export default function HeroSection() {
           {/* Right Side: Visual Asset */}
           <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1 }} style={{ position: "relative" }}>
             <div style={{ position: "relative", borderRadius: "40px", overflow: "hidden", border: "1px solid rgba(255,255,255,0.1)", boxShadow: "0 50px 100px rgba(0,0,0,0.8)" }}>
-              <img src="/hero-image.png" alt="CupMate Premium" style={{ width: "100%", height: "auto", display: "block" }} />
+              <img src="/hero-image.png" alt="CupDate Premium" style={{ width: "100%", height: "auto", display: "block" }} />
               <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(5,5,5,0.9) 0%, transparent 40%)" }} />
             </div>
 

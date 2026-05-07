@@ -16,7 +16,7 @@ export default function Footer() {
               <div style={{ width: 40, height: 40, borderRadius: "50%", background: "var(--grad-hero)", display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <Coffee size={20} color="white" />
               </div>
-              <span className="font-playfair" style={{ fontSize: "1.8rem", fontWeight: 700 }}>CupMate</span>
+              <span className="font-playfair" style={{ fontSize: "1.8rem", fontWeight: 700 }}>CupDate</span>
             </div>
             <p style={{ color: "rgba(255,255,255,0.6)", lineHeight: 1.8, maxWidth: "300px" }}>
               The dating app for coffee enthusiasts. Find your perfect match and share a cup of joy.
@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
 
         <div style={{ borderTop: "1px solid rgba(255,255,255,0.1)", paddingTop: "2rem", textAlign: "center", color: "rgba(255,255,255,0.4)", fontSize: "0.9rem" }}>
-          <p>© 2026 CupMate. Made with <Heart size={14} color="var(--pink-500)" style={{ display: "inline", margin: "0 4px" }} /> for coffee lovers.</p>
+          <p>© 2026 CupDate. Made with <Heart size={14} color="var(--pink-500)" style={{ display: "inline", margin: "0 4px" }} /> for coffee lovers.</p>
         </div>
       </div>
 

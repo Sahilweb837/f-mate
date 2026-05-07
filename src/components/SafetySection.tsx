@@ -47,7 +47,7 @@ export default function SafetySection() {
               </p>
             </div>
             <p style={{ color: "var(--text-muted)", fontSize: "1.2rem", lineHeight: 1.8, marginBottom: "3rem" }}>
-              At CupMate, we believe that the best connections happen when you feel safe.
+              At CupDate, we believe that the best connections happen when you feel safe.
               That's why we've built the most advanced security features in the industry.
             </p>
 

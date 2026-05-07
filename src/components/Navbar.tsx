@@ -111,7 +111,7 @@ export default function Navbar() {
                 letterSpacing: "-0.03em"
               }}
             >
-              CupMate
+              CupDate
             </span>
           </motion.div>
         </Link>
@@ -255,7 +255,7 @@ export default function Navbar() {
                     <div style={{ background: 'var(--grad-primary)', width: 32, height: 32, borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                        <Coffee size={18} color="white" />
                     </div>
-                    <span className="font-playfair" style={{ fontWeight: 900, fontSize: '1.2rem' }}>CupMate</span>
+                    <span className="font-playfair" style={{ fontWeight: 900, fontSize: '1.2rem' }}>CupDate</span>
                  </div>
                  <button onClick={() => setOpen(false)} style={{ background: 'rgba(255,255,255,0.05)', border: 'none', color: 'white', width: 40, height: 40, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><X size={24} /></button>
               </div>

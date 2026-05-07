@@ -113,7 +113,7 @@ export default function RegisterPage() {
               <input
                 required
                 type="email"
-                placeholder="aria@cupmate.app"
+                placeholder="aria@CupDate.app"
                 style={{ width: '100%', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '14px', padding: '1rem 1rem 1rem 3.5rem', color: 'white', outline: 'none', fontSize: '1rem' }}
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}

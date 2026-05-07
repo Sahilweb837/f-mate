@@ -113,7 +113,7 @@ export default function LoginForm({ isSimple }: { isSimple?: boolean }) {
         whileHover={{ scale: 1.02, boxShadow: '0 0 30px rgba(255,0,127,0.4)' }}
         whileTap={{ scale: 0.98 }}
       >
-        {loading ? <Loader2 className="animate-spin" size={24} /> : 'Log In to CupMate'}
+        {loading ? <Loader2 className="animate-spin" size={24} /> : 'Log In to CupDate'}
       </motion.button>
     </form>
   );

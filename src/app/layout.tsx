@@ -15,23 +15,23 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "CupMate | Find Your Perfect Coffee Date & New Connections",
+  title: "CupDate | Find Your Perfect Coffee Date & New Connections",
   description:
-    "CupMate is the world's first dating platform dedicated to coffee lovers. Find verified singles near you, match randomly with boys or girls, and start meaningful conversations over your favorite brew. Free to join and 100% secure.",
-  keywords: "coffee dating app, find coffee partner, random match dating, verified singles near me, indian dating app, local coffee dates, meet new people, CupMate app",
-  authors: [{ name: "CupMate Team" }],
+    "CupDate is the world's first dating platform dedicated to coffee lovers. Find verified singles near you, match randomly with boys or girls, and start meaningful conversations over your favorite brew. Free to join and 100% secure.",
+  keywords: "coffee dating app, find coffee partner, random match dating, verified singles near me, indian dating app, local coffee dates, meet new people, CupDate app",
+  authors: [{ name: "CupDate Team" }],
   viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
   openGraph: {
-    title: "CupMate | Start Your Love Story Over Coffee",
-    description: "The premium dating platform for coffee enthusiasts. Join the CupMate community today.",
-    url: "https://cupmate.app",
-    siteName: "CupMate",
+    title: "CupDate | Start Your Love Story Over Coffee",
+    description: "The premium dating platform for coffee enthusiasts. Join the CupDate community today.",
+    url: "https://CupDate.app",
+    siteName: "CupDate",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "CupMate | Coffee & Connections",
+    title: "CupDate | Coffee & Connections",
     description: "Find your next coffee date instantly with our random matcher.",
   }
 };

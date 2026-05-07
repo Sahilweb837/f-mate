@@ -92,9 +92,9 @@ export default function FeaturesSection() {
               <div style={{ display: "flex", gap: "0.5rem", color: "#ffd700", marginBottom: "1.5rem" }}>
                  <Star size={20} fill="#ffd700" /><Star size={20} fill="#ffd700" /><Star size={20} fill="#ffd700" /><Star size={20} fill="#ffd700" /><Star size={20} fill="#ffd700" />
               </div>
-              <h3 className="font-playfair" style={{ fontSize: "2.5rem", fontWeight: 800, marginBottom: "1.5rem", lineHeight: 1.2 }}>"I found my barista-in-crime on CupMate!"</h3>
+              <h3 className="font-playfair" style={{ fontSize: "2.5rem", fontWeight: 800, marginBottom: "1.5rem", lineHeight: 1.2 }}>"I found my barista-in-crime on CupDate!"</h3>
               <p style={{ color: "var(--text-muted)", fontSize: "1.1rem", lineHeight: 1.8, marginBottom: "2rem" }}>
-                "We matched over our mutual love for Ethiopian light roasts. Three weeks later, we met at our local roastery and have been together ever since. CupMate's focus on coffee made the ice-breaking so much easier!"
+                "We matched over our mutual love for Ethiopian light roasts. Three weeks later, we met at our local roastery and have been together ever since. CupDate's focus on coffee made the ice-breaking so much easier!"
               </p>
               <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                  <div style={{ fontWeight: 800, fontSize: "1.2rem" }}>Sarah & James</div>

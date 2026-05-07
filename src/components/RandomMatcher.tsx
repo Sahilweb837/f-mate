@@ -47,7 +47,7 @@ export default function RandomMatcher() {
           </div>
           <h2 className="font-playfair" style={{ fontSize: "3.5rem", fontWeight: 900, marginBottom: "1.5rem" }}>Random Match</h2>
           <p style={{ color: "var(--text-muted)", fontSize: "1.2rem", maxWidth: "600px", margin: "0 auto" }}>
-            Select who you'd like to meet and let CupMate find your perfect coffee partner instantly.
+            Select who you'd like to meet and let CupDate find your perfect coffee partner instantly.
           </p>
         </motion.div>
 

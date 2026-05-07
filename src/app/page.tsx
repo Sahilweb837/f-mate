@@ -12,7 +12,10 @@ import VideoCallPreview from "@/components/VideoCallPreview";
 import Footer from "@/components/Footer";
 import FloatingParticles from "@/components/FloatingParticles";
 import LocationManager from "@/components/LocationManager";
-import RadarView from "@/components/RadarView";
+import RadarMap from "@/components/RadarMap";
+import SocialFeed from "@/components/SocialFeed";
+import ChatWindow from "@/components/ChatWindow";
+import CompatibilityScore from "@/components/CompatibilityScore";
 import SafetySection from "@/components/SafetySection";
 import DiscoveryCollections from "@/components/DiscoveryCollections";
 import RandomMatcher from "@/components/RandomMatcher";
@@ -35,11 +38,36 @@ export default function HomePage() {
         <FloatingParticles />
         <Navbar />
         <HeroSection />
-        <RandomMatcher />
-        <RadarView />
-        <DiscoveryCollections />
-        <ProfileCards />
-        <VideoCallPreview />
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-12 py-20">
+           <div className="lg:col-span-2 space-y-12">
+              <section>
+                 <h2 className="text-3xl font-black mb-8 flex items-center gap-3">
+                    <Sparkles className="text-pink-500" /> Discover Nearby
+                 </h2>
+                 <RadarMap />
+              </section>
+              <section>
+                 <h2 className="text-3xl font-black mb-8 flex items-center gap-3">
+                    <MessageCircle className="text-pink-500" /> Recent Activity
+                 </h2>
+                 <SocialFeed />
+              </section>
+           </div>
+           <div className="space-y-12">
+              <section>
+                 <h2 className="text-3xl font-black mb-8 flex items-center gap-3">
+                    <Zap className="text-pink-500" /> Compatibility
+                 </h2>
+                 <CompatibilityScore score={92} />
+              </section>
+              <section>
+                 <h2 className="text-3xl font-black mb-8 flex items-center gap-3">
+                    <Heart className="text-pink-500" /> Live Chat
+                 </h2>
+                 <ChatWindow />
+              </section>
+           </div>
+        </div>
         <Footer />
       </main>
     );
@@ -52,7 +80,7 @@ export default function HomePage() {
         <img 
           src="/profile-couple-1.png" 
           style={{ width: "100%", height: "100%", objectFit: "cover" }} 
-          alt="CupMate Couple" 
+          alt="CupDate Couple" 
         />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, transparent 50%, var(--bg-deep) 100%), linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.8) 100%)" }} />
         
@@ -84,7 +112,7 @@ export default function HomePage() {
               <div style={{ background: "var(--grad-primary)", width: 32, height: 32, borderRadius: "8px", display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <Coffee size={18} color="white" />
               </div>
-              <span className="font-playfair" style={{ fontSize: "1.2rem", fontWeight: 900, color: "white" }}>CupMate</span>
+              <span className="font-playfair" style={{ fontSize: "1.2rem", fontWeight: 900, color: "white" }}>CupDate</span>
            </Link>
         </div>
 
